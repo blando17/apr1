@@ -1,0 +1,61 @@
+
+------------------------ FREQUENT ITEMSETS:
+Item: ('15+  nights', 'Holiday"'), Support = 0.051
+Item: ('1-3  nights', 'Tunnel'), Support = 0.052
+Item: ('1-3  nights', 'Air', 'Miscellaneous"'), Support = 0.052
+Item: ('15+  nights', 'Air', 'VFR"'), Support = 0.052
+Item: ('1-3  nights', 'Air', 'VFR"'), Support = 0.053
+Item: ('Air', '8-14 nights', 'VFR"'), Support = 0.057
+Item: ('Tunnel', 'Holiday"'), Support = 0.058
+Item: ('Air', '8-14 nights', 'Holiday"'), Support = 0.06
+Item: ('15+  nights', 'VFR"'), Support = 0.061
+Item: ('Air', '4-7  nights', 'Business"'), Support = 0.061
+Item: ('Miscellaneous"', '1-3  nights'), Support = 0.061
+Item: ('1-3  nights', 'Air', 'Business"'), Support = 0.062
+Item: ('Air', '4-7  nights', 'VFR"'), Support = 0.064
+Item: ('1-3  nights', 'Air', 'Holiday"'), Support = 0.064
+Item: ('8-14 nights', 'VFR"'), Support = 0.071
+Item: ('1-3  nights', 'VFR"'), Support = 0.071
+Item: ('Air', '4-7  nights', 'Holiday"'), Support = 0.073
+Item: ('4-7  nights', 'Business"'), Support = 0.075
+Item: ('8-14 nights', 'Holiday"'), Support = 0.077
+Item: ('4-7  nights', 'VFR"'), Support = 0.082
+Item: ('1-3  nights', 'Business"'), Support = 0.092
+Item: ('Sea',), Support = 0.098
+Item: ('Miscellaneous"', 'Air'), Support = 0.102
+Item: ('1-3  nights', 'Holiday"'), Support = 0.103
+Item: ('4-7  nights', 'Holiday"'), Support = 0.108
+Item: ('Miscellaneous"',), Support = 0.115
+Item: ('Tunnel',), Support = 0.124
+Item: ('Air', '15+  nights'), Support = 0.143
+Item: ('15+  nights',), Support = 0.166
+Item: ('Air', '8-14 nights'), Support = 0.173
+Item: ('Air', 'Business"'), Support = 0.18
+Item: ('8-14 nights',), Support = 0.208
+Item: ('Air', 'VFR"'), Support = 0.227
+Item: ('Air', '4-7  nights'), Support = 0.227
+Item: ('Business"',), Support = 0.229
+Item: ('1-3  nights', 'Air'), Support = 0.235
+Item: ('Air', 'Holiday"'), Support = 0.239
+Item: ('VFR"',), Support = 0.284
+Item: ('4-7  nights',), Support = 0.297
+Item: ('1-3  nights',), Support = 0.33
+Item: ('Holiday"',), Support = 0.339
+Item: ('Air',), Support = 0.778
+
+------------------------ RULES:
+Rule: ('Holiday"',) ==> ('Air',), Confidence = 0.705
+Rule: ('1-3  nights',) ==> ('Air',), Confidence = 0.713
+Rule: ('1-3  nights', 'VFR"') ==> ('Air',), Confidence = 0.753
+Rule: ('4-7  nights',) ==> ('Air',), Confidence = 0.765
+Rule: ('4-7  nights', 'VFR"') ==> ('Air',), Confidence = 0.775
+Rule: ('8-14 nights', 'Holiday"') ==> ('Air',), Confidence = 0.778
+Rule: ('Business"',) ==> ('Air',), Confidence = 0.787
+Rule: ('VFR"',) ==> ('Air',), Confidence = 0.797
+Rule: ('8-14 nights', 'VFR"') ==> ('Air',), Confidence = 0.809
+Rule: ('4-7  nights', 'Business"') ==> ('Air',), Confidence = 0.816
+Rule: ('8-14 nights',) ==> ('Air',), Confidence = 0.832
+Rule: ('1-3  nights', 'Miscellaneous"') ==> ('Air',), Confidence = 0.853
+Rule: ('15+  nights',) ==> ('Air',), Confidence = 0.862
+Rule: ('VFR"', '15+  nights') ==> ('Air',), Confidence = 0.866
+Rule: ('Miscellaneous"',) ==> ('Air',), Confidence = 0.886

@@ -1,0 +1,283 @@
+============================================================
+ Apriori Algorithm Results
+============================================================
+Parameters:
+  - Minimum Support: 0.01
+  - Minimum Confidence: 0.9
+------------------------------------------------------------
+
+--- Frequent Itemsets (195 found) ---
+Item: ['Air']                                  Support: 0.7776
+Item: ['Holiday']                              Support: 0.3389
+Item: ['1-3  nights']                          Support: 0.3295
+Item: ['4-7  nights']                          Support: 0.2973
+Item: ['VFR']                                  Support: 0.2841
+Item: ['Air', 'Holiday']                       Support: 0.2388
+Item: ['1-3  nights', 'Air']                   Support: 0.2349
+Item: ['Business']                             Support: 0.2285
+Item: ['4-7  nights', 'Air']                   Support: 0.2273
+Item: ['Air', 'VFR']                           Support: 0.2265
+Item: ['8-14 nights']                          Support: 0.2076
+Item: ['Air', 'Business']                      Support: 0.1798
+Item: ['8-14 nights', 'Air']                   Support: 0.1728
+Item: ['15+  nights']                          Support: 0.1656
+Item: ['15+  nights', 'Air']                   Support: 0.1426
+Item: ['Tunnel']                               Support: 0.1244
+Item: ['Miscellaneous']                        Support: 0.1149
+Item: ['4-7  nights', 'Holiday']               Support: 0.1080
+Item: ['1-3  nights', 'Holiday']               Support: 0.1030
+Item: ['Air', 'Miscellaneous']                 Support: 0.1019
+Item: ['Sea']                                  Support: 0.0981
+Item: ['1-3  nights', 'Business']              Support: 0.0916
+Item: ['4-7  nights', 'VFR']                   Support: 0.0821
+Item: ['8-14 nights', 'Holiday']               Support: 0.0774
+Item: ['4-7  nights', 'Business']              Support: 0.0747
+Item: ['4-7  nights', 'Air', 'Holiday']        Support: 0.0728
+Item: ['1-3  nights', 'VFR']                   Support: 0.0708
+Item: ['8-14 nights', 'VFR']                   Support: 0.0706
+Item: ['1-3  nights', 'Air', 'Holiday']        Support: 0.0644
+Item: ['4-7  nights', 'Air', 'VFR']            Support: 0.0637
+Item: ['1-3  nights', 'Air', 'Business']       Support: 0.0623
+Item: ['1-3  nights', 'Miscellaneous']         Support: 0.0615
+Item: ['4-7  nights', 'Air', 'Business']       Support: 0.0610
+Item: ['15+  nights', 'VFR']                   Support: 0.0606
+Item: ['8-14 nights', 'Air', 'Holiday']        Support: 0.0602
+Item: ['Holiday', 'Tunnel']                    Support: 0.0578
+Item: ['8-14 nights', 'Air', 'VFR']            Support: 0.0571
+Item: ['1-3  nights', 'Air', 'VFR']            Support: 0.0533
+Item: ['15+  nights', 'Air', 'VFR']            Support: 0.0524
+Item: ['1-3  nights', 'Air', 'Miscellaneous']  Support: 0.0524
+Item: ['1-3  nights', 'Tunnel']                Support: 0.0520
+Item: ['15+  nights', 'Holiday']               Support: 0.0505
+Item: ['1-3  nights', 'Sea']                   Support: 0.0426
+Item: ['Holiday', 'Sea']                       Support: 0.0423
+Item: ['France']                               Support: 0.0418
+Item: ['15+  nights', 'Air', 'Holiday']        Support: 0.0414
+Item: ['4-7  nights', 'Tunnel']                Support: 0.0407
+Item: ['USA']                                  Support: 0.0405
+Item: ['8-14 nights', 'Business']              Support: 0.0386
+Item: ['Germany']                              Support: 0.0358
+Item: ['8-14 nights', 'Air', 'Business']       Support: 0.0355
+Item: ['Study']                                Support: 0.0335
+Item: ['Tunnel', 'VFR']                        Support: 0.0326
+Item: ['Netherlands']                          Support: 0.0314
+Item: ['Australia']                            Support: 0.0306
+Item: ['Air', 'Study']                         Support: 0.0305
+Item: ['4-7  nights', 'Sea']                   Support: 0.0293
+Item: ['4-7  nights', 'Miscellaneous']         Support: 0.0256
+Item: ['Sea', 'VFR']                           Support: 0.0250
+Item: ['Business', 'Sea']                      Support: 0.0245
+Item: ['Business', 'Tunnel']                   Support: 0.0242
+Item: ['Air', 'USA']                           Support: 0.0239
+Item: ['15+  nights', 'Business']              Support: 0.0236
+Item: ['India']                                Support: 0.0234
+Item: ['4-7  nights', 'Air', 'Miscellaneous']  Support: 0.0234
+Item: ['Spain']                                Support: 0.0232
+Item: ['Canada']                               Support: 0.0231
+Item: ['Belgium']                              Support: 0.0228
+Item: ['4-7  nights', 'Holiday', 'Tunnel']     Support: 0.0220
+Item: ['Poland']                               Support: 0.0218
+Item: ['1-3  nights', 'Holiday', 'Tunnel']     Support: 0.0217
+Item: ['Italy']                                Support: 0.0213
+Item: ['15+  nights', 'Air', 'Business']       Support: 0.0210
+Item: ['Irish Republic']                       Support: 0.0209
+Item: ['Brazil']                               Support: 0.0207
+Item: ['Romania']                              Support: 0.0201
+Item: ['China']                                Support: 0.0201
+Item: ['8-14 nights', 'Tunnel']                Support: 0.0199
+Item: ['Other Eastern Europe']                 Support: 0.0192
+Item: ['Air', 'India']                         Support: 0.0192
+Item: ['United Arab Emirates']                 Support: 0.0191
+Item: ['Air', 'Australia']                     Support: 0.0185
+Item: ['Hong Kong']                            Support: 0.0183
+Item: ['Air', 'Spain']                         Support: 0.0181
+Item: ['Air', 'Germany']                       Support: 0.0180
+Item: ['Air', 'China']                         Support: 0.0180
+Item: ['Air', 'Italy']                         Support: 0.0179
+Item: ['Switzerland']                          Support: 0.0178
+Item: ['Air', 'United Arab Emirates']          Support: 0.0176
+Item: ['Other Central & South America']        Support: 0.0173
+Item: ['Japan']                                Support: 0.0172
+Item: ['New Zealand']                          Support: 0.0172
+Item: ['Air', 'Canada']                        Support: 0.0168
+Item: ['15+  nights', 'Study']                 Support: 0.0168
+Item: ['1-3  nights', 'Holiday', 'Sea']        Support: 0.0168
+Item: ['Malaysia']                             Support: 0.0165
+Item: ['Singapore']                            Support: 0.0164
+Item: ['Air', 'Hong Kong']                     Support: 0.0164
+Item: ['Air', 'France']                        Support: 0.0163
+Item: ['South Africa']                         Support: 0.0161
+Item: ['Other Asia']                           Support: 0.0158
+Item: ['Saudi Arabia']                         Support: 0.0158
+Item: ['Other Africa']                         Support: 0.0155
+Item: ['Air', 'Brazil']                        Support: 0.0155
+Item: ['Sweden']                               Support: 0.0154
+Item: ['Israel']                               Support: 0.0153
+Item: ['Nigeria']                              Support: 0.0152
+Item: ['South Korea']                          Support: 0.0152
+Item: ['Air', 'Japan']                         Support: 0.0152
+Item: ['15+  nights', 'Air', 'Study']          Support: 0.0152
+Item: ['Russia']                               Support: 0.0151
+Item: ['Air', 'South Africa']                  Support: 0.0151
+Item: ['Air', 'Saudi Arabia']                  Support: 0.0150
+Item: ['1-3  nights', 'Business', 'Sea']       Support: 0.0150
+Item: ['8-14 nights', 'Sea']                   Support: 0.0149
+Item: ['Air', 'Other Eastern Europe']          Support: 0.0149
+Item: ['France', 'Tunnel']                     Support: 0.0149
+Item: ['Other Western Europe']                 Support: 0.0148
+Item: ['Portugal']                             Support: 0.0148
+Item: ['Air', 'Other Asia']                    Support: 0.0148
+Item: ['Air', 'Nigeria']                       Support: 0.0148
+Item: ['Air', 'Singapore']                     Support: 0.0147
+Item: ['Air', 'Irish Republic']                Support: 0.0146
+Item: ['Air', 'Sweden']                        Support: 0.0145
+Item: ['Air', 'Other Africa']                  Support: 0.0145
+Item: ['Air', 'Other Central & South America'] Support: 0.0144
+Item: ['Air', 'Switzerland']                   Support: 0.0143
+Item: ['1-3  nights', 'France']                Support: 0.0143
+Item: ['1-3  nights', 'Business', 'Tunnel']    Support: 0.0143
+Item: ['Air', 'Russia']                        Support: 0.0140
+Item: ['15+  nights', 'Miscellaneous']         Support: 0.0140
+Item: ['Air', 'Other Western Europe']          Support: 0.0140
+Item: ['Air', 'Malaysia']                      Support: 0.0140
+Item: ['Air', 'Netherlands']                   Support: 0.0140
+Item: ['Air', 'Israel']                        Support: 0.0140
+Item: ['8-14 nights', 'Miscellaneous']         Support: 0.0139
+Item: ['Norway']                               Support: 0.0137
+Item: ['1-3  nights', 'Netherlands']           Support: 0.0137
+Item: ['Argentina']                            Support: 0.0136
+Item: ['Air', 'Poland']                        Support: 0.0136
+Item: ['France', 'VFR']                        Support: 0.0136
+Item: ['8-14 nights', 'Air', 'Miscellaneous']  Support: 0.0134
+Item: ['Czech Republic']                       Support: 0.0134
+Item: ['Austria']                              Support: 0.0133
+Item: ['Air', 'Norway']                        Support: 0.0133
+Item: ['4-7  nights', 'Holiday', 'Sea']        Support: 0.0132
+Item: ['Mexico']                               Support: 0.0131
+Item: ['Denmark']                              Support: 0.0130
+Item: ['Kuwait']                               Support: 0.0129
+Item: ['Australia', 'Holiday']                 Support: 0.0129
+Item: ['Air', 'Romania']                       Support: 0.0128
+Item: ['15+  nights', 'Air', 'Miscellaneous']  Support: 0.0127
+Item: ['Holiday', 'USA']                       Support: 0.0126
+Item: ['Air', 'Portugal']                      Support: 0.0125
+Item: ['Air', 'New Zealand']                   Support: 0.0125
+Item: ['Other Middle East']                    Support: 0.0124
+Item: ['4-7  nights', 'France']                Support: 0.0124
+Item: ['1-3  nights', 'Germany']               Support: 0.0123
+Item: ['Finland']                              Support: 0.0122
+Item: ['Air', 'Kuwait']                        Support: 0.0122
+Item: ['1-3  nights', 'Belgium']               Support: 0.0121
+Item: ['Hungary']                              Support: 0.0120
+Item: ['France', 'Holiday']                    Support: 0.0120
+Item: ['Turkey']                               Support: 0.0119
+Item: ['Air', 'Other Middle East']             Support: 0.0118
+Item: ['Air', 'Finland']                       Support: 0.0118
+Item: ['Air', 'Denmark']                       Support: 0.0118
+Item: ['15+  nights', 'Tunnel']                Support: 0.0118
+Item: ['1-3  nights', 'USA']                   Support: 0.0116
+Item: ['Air', 'South Korea']                   Support: 0.0115
+Item: ['Air', 'Austria']                       Support: 0.0115
+Item: ['Greece']                               Support: 0.0114
+Item: ['Qatar']                                Support: 0.0112
+Item: ['Germany', 'Holiday']                   Support: 0.0112
+Item: ['15+  nights', 'Sea']                   Support: 0.0112
+Item: ['4-7  nights', 'Germany']               Support: 0.0111
+Item: ['Tunnel', 'USA']                        Support: 0.0110
+Item: ['Air', 'Turkey']                        Support: 0.0109
+Item: ['Air', 'Greece']                        Support: 0.0109
+Item: ['4-7  nights', 'USA']                   Support: 0.0109
+Item: ['1-3  nights', 'Tunnel', 'VFR']         Support: 0.0109
+Item: ['Pakistan']                             Support: 0.0108
+Item: ['Belgium', 'Tunnel']                    Support: 0.0107
+Item: ['Germany', 'VFR']                       Support: 0.0107
+Item: ['France', 'Sea']                        Support: 0.0106
+Item: ['Germany', 'Sea']                       Support: 0.0106
+Item: ['Bulgaria']                             Support: 0.0106
+Item: ['Air', 'Pakistan']                      Support: 0.0106
+Item: ['4-7  nights', 'Netherlands']           Support: 0.0105
+Item: ['Air', 'Qatar']                         Support: 0.0104
+Item: ['Air', 'Czech Republic']                Support: 0.0103
+Item: ['Air', 'Mexico']                        Support: 0.0102
+Item: ['Holiday', 'Netherlands']               Support: 0.0101
+Item: ['4-7  nights', 'Tunnel', 'VFR']         Support: 0.0101
+Item: ['8-14 nights', 'Holiday', 'Tunnel']     Support: 0.0100
+
+------------------------------------------------------------
+
+--- Association Rules (25 found) ---
+Rule: ['Pakistan'] ==> ['Air']
+  Confidence: 0.9790
+
+Rule: ['Norway'] ==> ['Air']
+  Confidence: 0.9724
+
+Rule: ['Nigeria'] ==> ['Air']
+  Confidence: 0.9703
+
+Rule: ['Finland'] ==> ['Air']
+  Confidence: 0.9691
+
+Rule: ['8-14 nights', 'Miscellaneous'] ==> ['Air']
+  Confidence: 0.9674
+
+Rule: ['Greece'] ==> ['Air']
+  Confidence: 0.9536
+
+Rule: ['Saudi Arabia'] ==> ['Air']
+  Confidence: 0.9522
+
+Rule: ['Other Middle East'] ==> ['Air']
+  Confidence: 0.9515
+
+Rule: ['Other Western Europe'] ==> ['Air']
+  Confidence: 0.9490
+
+Rule: ['Kuwait'] ==> ['Air']
+  Confidence: 0.9474
+
+Rule: ['Sweden'] ==> ['Air']
+  Confidence: 0.9412
+
+Rule: ['South Africa'] ==> ['Air']
+  Confidence: 0.9390
+
+Rule: ['Other Asia'] ==> ['Air']
+  Confidence: 0.9333
+
+Rule: ['Qatar'] ==> ['Air']
+  Confidence: 0.9324
+
+Rule: ['Other Africa'] ==> ['Air']
+  Confidence: 0.9320
+
+Rule: ['Russia'] ==> ['Air']
+  Confidence: 0.9300
+
+Rule: ['United Arab Emirates'] ==> ['Air']
+  Confidence: 0.9209
+
+Rule: ['8-14 nights', 'Business'] ==> ['Air']
+  Confidence: 0.9199
+
+Rule: ['Turkey'] ==> ['Air']
+  Confidence: 0.9177
+
+Rule: ['4-7  nights', 'Miscellaneous'] ==> ['Air']
+  Confidence: 0.9145
+
+Rule: ['Denmark'] ==> ['Air']
+  Confidence: 0.9128
+
+Rule: ['Study'] ==> ['Air']
+  Confidence: 0.9122
+
+Rule: ['Israel'] ==> ['Air']
+  Confidence: 0.9113
+
+Rule: ['15+  nights', 'Miscellaneous'] ==> ['Air']
+  Confidence: 0.9032
+
+Rule: ['15+  nights', 'Study'] ==> ['Air']
+  Confidence: 0.9013
+
